@@ -15,6 +15,8 @@ rust_library {
 rust_defaults {
     name: "unicode-width_defaults",
     crate_name: "unicode_width",
+    // has rustc warnings
+    srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
     edition: "2015",
@@ -26,13 +28,9 @@ rust_defaults {
 rust_test_host {
     name: "unicode-width_host_test_src_lib",
     defaults: ["unicode-width_defaults"],
-    // has rustc warnings
-    srcs: ["src/lib.rs"],
 }
 
 rust_test {
     name: "unicode-width_device_test_src_lib",
     defaults: ["unicode-width_defaults"],
-    // has rustc warnings
-    srcs: ["src/lib.rs"],
 }
