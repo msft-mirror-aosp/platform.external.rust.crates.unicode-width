@@ -1,4 +1,4 @@
-name: unicode-width
+name: "unicode-width"
 description: "Determine displayed width of `char` and `str` types according to Unicode Standard Annex #11 rules."
 third_party {
   url {
@@ -6,14 +6,14 @@ third_party {
     value: "https://crates.io/crates/unicode-width"
   }
   url {
-    type: GIT
-    value: "https://github.com/unicode-rs/unicode-width"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/unicode-width/unicode-width-0.1.8.crate"
   }
-  version: "0.1.7"
+  version: "0.1.8"
   license_type: NOTICE
   last_upgrade_date {
     year: 2020
-    month: 5
-    day: 6
+    month: 9
+    day: 9
   }
 }
