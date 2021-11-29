@@ -2,7 +2,30 @@
 {
   "presubmit": [
     {
-      "name": "unicode-width_device_test_src_lib"
+      "name": "keystore2_test"
+    },
+    {
+      "name": "keystore2_vintf_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "unicode-width_test_src_lib"
+    }
+  ],
+  "presubmit-rust": [
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "keystore2_vintf_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "unicode-width_test_src_lib"
     }
   ]
 }
