@@ -8,7 +8,16 @@
       "name": "VtsAidlDiceTargetTest"
     },
     {
+      "name": "bluetooth_with_facades.test"
+    },
+    {
+      "name": "compos_verify.test"
+    },
+    {
       "name": "diced_test"
+    },
+    {
+      "name": "keystore2_client_tests"
     },
     {
       "name": "keystore2_legacy_blobs_test"
@@ -29,7 +38,7 @@
       "name": "unicode-width_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ],
   "presubmit-rust": [
@@ -40,7 +49,16 @@
       "name": "VtsAidlDiceTargetTest"
     },
     {
+      "name": "bluetooth_with_facades.test"
+    },
+    {
+      "name": "compos_verify.test"
+    },
+    {
       "name": "diced_test"
+    },
+    {
+      "name": "keystore2_client_tests"
     },
     {
       "name": "keystore2_legacy_blobs_test"
@@ -61,7 +79,7 @@
       "name": "unicode-width_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ]
 }
